@@ -29,7 +29,16 @@ main {
   background-size: contain;
   cursor: pointer;
 }
-#card-img:hover {
+#card-img:hover::before {
+  content: url("img/icon-view.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 15px;
+  background: rgba(0, 255, 247, 0.3);
+  width: 283px;
+  height: 283px;
 }
 h1 {
   font-size: 1.4em;
