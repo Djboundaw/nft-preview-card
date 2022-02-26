@@ -39,6 +39,9 @@ h1 {
 h1:hover {
   color: hsl(178, 100%, 50%);
 }
+h1 + p {
+  line-height: 30px;
+}
 p {
   font-size: 18px;
   color: #cddaf3;
