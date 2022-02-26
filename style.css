@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap");
+* {
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+}
+body {
+  height: 100vh;
+  background: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main {
+  width: 290px;
+  padding: 20px;
+  background: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#card-img {
+  width: 283px;
+  height: 283px;
+  border-radius: 15px;
+  background-image: url("img/image-equilibrium.jpg");
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+#card-img:hover {
+}
+h1 {
+  font-size: 1.4em;
+  font-weight: 600;
+  cursor: pointer;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+p {
+  font-size: 18px;
+  color: #cddaf3;
+}
+.timer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.cost,
+.remaining {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.cost p {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.ethereum,
+.clock {
+  display: block;
+}
+.timer::after {
+  content: "";
+  background-color: gray;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+.card-footer {
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+#avatar {
+  display: block;
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 14px;
+  left: -45px;
+}
+span {
+  cursor: pointer;
+}
+span:hover {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
