@@ -25,9 +25,6 @@ main {
   /* width: 76%; */
 }
 #card-img {
-  /* width: 95%; */
-  /* max-width: 283px;
-  max-height: 283px; */
   border-radius: 15px;
   background-image: url("img/image-equilibrium.jpg");
   background-repeat: no-repeat;
@@ -45,8 +42,6 @@ main {
   position: absolute;
   border-radius: 15px;
   background: rgba(0, 255, 247, 0.3);
-  /* max-width: 283px;
-  max-height: 283px; */
   width: 215px;
   height: 215px;
 }
@@ -102,7 +97,6 @@ h1 + p {
   margin-top: 10px;
 }
 #avatar {
-  /* display: block; */
   width: 25px;
   position: absolute;
   top: -2px;
@@ -134,7 +128,7 @@ footer span {
   display: block;
 }
 
-/* Responsive */
+/* ----------------- Responsive ----------------- */
 
 @media screen and (min-width: 376px) {
   main {
